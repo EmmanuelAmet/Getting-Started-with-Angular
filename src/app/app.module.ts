@@ -10,6 +10,7 @@ import { CounterComponent } from './component/counter/counter.component';
 import { PropertyBindingComponent } from './component/property-binding/property-binding.component';
 import { IfElseConditionComponent } from './component/if-else-condition/if-else-condition.component';
 import { SwitchCaseComponent } from './component/switch-case/switch-case.component';
+import { LoopComponent } from './component/loop/loop.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { SwitchCaseComponent } from './component/switch-case/switch-case.compone
         CounterComponent,
         PropertyBindingComponent,
         IfElseConditionComponent,
-        SwitchCaseComponent
+        SwitchCaseComponent,
+        LoopComponent
     ],
   imports: [
     BrowserModule
