@@ -9,6 +9,7 @@ import {UserListComponent} from "./component/user-list/user-list.component";
 import { CounterComponent } from './component/counter/counter.component';
 import { PropertyBindingComponent } from './component/property-binding/property-binding.component';
 import { IfElseConditionComponent } from './component/if-else-condition/if-else-condition.component';
+import { SwitchCaseComponent } from './component/switch-case/switch-case.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { IfElseConditionComponent } from './component/if-else-condition/if-else-
         UserListComponent,
         CounterComponent,
         PropertyBindingComponent,
-        IfElseConditionComponent
+        IfElseConditionComponent,
+        SwitchCaseComponent
     ],
   imports: [
     BrowserModule
