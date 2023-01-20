@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle'
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -16,6 +17,13 @@ import { StyleBindingComponent } from './component/style-binding/style-binding.c
 import { BasicFormComponent } from './component/basic-form/basic-form.component';
 import {FormsModule} from "@angular/forms";
 import { ToggleElementComponent } from './component/toggle-element/toggle-element.component';
+import { BootstrapComponent } from './component/bootstrap/bootstrap.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialUiComponent } from './component/material-ui/material-ui.component';
+import {MatIconModule} from "@angular/material/icon";
+import {MatListModule} from "@angular/material/list";
+import {MatButtonModule} from "@angular/material/button";
+
 
 @NgModule({
     declarations: [
@@ -33,11 +41,18 @@ import { ToggleElementComponent } from './component/toggle-element/toggle-elemen
         NestedForLoopComponent,
         StyleBindingComponent,
         BasicFormComponent,
-        ToggleElementComponent
+        ToggleElementComponent,
+        BootstrapComponent,
+        MaterialUiComponent
     ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule,
+    MatIconModule,
+    MatListModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
