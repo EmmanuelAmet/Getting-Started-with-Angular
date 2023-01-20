@@ -15,6 +15,7 @@ import { NestedForLoopComponent } from './component/nested-for-loop/nested-for-l
 import { StyleBindingComponent } from './component/style-binding/style-binding.component';
 import { BasicFormComponent } from './component/basic-form/basic-form.component';
 import {FormsModule} from "@angular/forms";
+import { ToggleElementComponent } from './component/toggle-element/toggle-element.component';
 
 @NgModule({
     declarations: [
@@ -31,7 +32,8 @@ import {FormsModule} from "@angular/forms";
         LoopComponent,
         NestedForLoopComponent,
         StyleBindingComponent,
-        BasicFormComponent
+        BasicFormComponent,
+        ToggleElementComponent
     ],
   imports: [
     BrowserModule,
