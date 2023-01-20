@@ -12,6 +12,7 @@ import { IfElseConditionComponent } from './component/if-else-condition/if-else-
 import { SwitchCaseComponent } from './component/switch-case/switch-case.component';
 import { LoopComponent } from './component/loop/loop.component';
 import { NestedForLoopComponent } from './component/nested-for-loop/nested-for-loop.component';
+import { StyleBindingComponent } from './component/style-binding/style-binding.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { NestedForLoopComponent } from './component/nested-for-loop/nested-for-l
         IfElseConditionComponent,
         SwitchCaseComponent,
         LoopComponent,
-        NestedForLoopComponent
+        NestedForLoopComponent,
+        StyleBindingComponent
     ],
   imports: [
     BrowserModule
