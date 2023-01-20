@@ -11,6 +11,7 @@ import { PropertyBindingComponent } from './component/property-binding/property-
 import { IfElseConditionComponent } from './component/if-else-condition/if-else-condition.component';
 import { SwitchCaseComponent } from './component/switch-case/switch-case.component';
 import { LoopComponent } from './component/loop/loop.component';
+import { NestedForLoopComponent } from './component/nested-for-loop/nested-for-loop.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import { LoopComponent } from './component/loop/loop.component';
         PropertyBindingComponent,
         IfElseConditionComponent,
         SwitchCaseComponent,
-        LoopComponent
+        LoopComponent,
+        NestedForLoopComponent
     ],
   imports: [
     BrowserModule
