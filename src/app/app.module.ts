@@ -13,6 +13,8 @@ import { SwitchCaseComponent } from './component/switch-case/switch-case.compone
 import { LoopComponent } from './component/loop/loop.component';
 import { NestedForLoopComponent } from './component/nested-for-loop/nested-for-loop.component';
 import { StyleBindingComponent } from './component/style-binding/style-binding.component';
+import { BasicFormComponent } from './component/basic-form/basic-form.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
     declarations: [
@@ -28,10 +30,12 @@ import { StyleBindingComponent } from './component/style-binding/style-binding.c
         SwitchCaseComponent,
         LoopComponent,
         NestedForLoopComponent,
-        StyleBindingComponent
+        StyleBindingComponent,
+        BasicFormComponent
     ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
